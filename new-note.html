@@ -1,0 +1,137 @@
+<!doctype html>
+<html class="no-js" lang="de-CH">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" href="/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body class="site">
+
+        <header class="site-header set-layout" role="banner">     
+            <a href="index.html" class="logo">
+                <svg class="icon icon-logo"><use xlink:href="/images/symbol-defs.svg#icon-logo"></use></svg>
+            </a>       
+
+            <div class="theme-changer inline-radio">
+                <div class="item">
+                    <input type="radio" name="change-theme" id="light" value="light">
+                    <label for="light" class="icon-label"  title="Change to Light Theme">
+                        <svg class="icon icon-medium icon-sun"><use xlink:href="/images/symbol-defs.svg#icon-sun"></use></svg>
+                        <span>light</span> 
+                    </label>
+                </div>
+                <div class="item">
+                    <input type="radio" name="change-theme" id="dark" value="dark">
+                    <label for="dark" class="icon-label" title="Change to Dark Theme">
+                        <span>dark</span>
+                        <svg class="icon icon-medium icon-moon-stars"><use xlink:href="/images/symbol-defs.svg#icon-moon-stars"></use></svg>
+                    </label>
+                </div>
+            </div>
+            
+        </header>
+
+        <main class="main-content" role="main">
+            <article class="set-layout">
+                <form action="" id="new-note" class="form">
+                    <div class="form-row">
+                        <div class="form-fields">
+                            <div class="form-field">
+                                <h1 class="form-title">Neue Notiz hinzufügen</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-fields">
+                        <div class="form-field">
+                          <label for="title">Titel</label>
+                          <input type="text" name="title" id="title" placeholder="Titel" required="true" >
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-fields">
+                            <div class="form-field">
+                                <label for="date">Fälligkeit</label>
+                                <input type="date" id="due-date" name="dueDate" value="">
+                            </div>
+                            <div class="form-field">
+                                <label for="priority">Dringlichkeit</label>
+                                <div class="inline-radio rating">     
+                                    <input type="radio" name="priority" id="level-5" value="5">
+                                    <label for="level-5">
+                                        <svg class="icon icon-large icon-lightning" title=""><use xlink:href="/images/symbol-defs.svg#icon-lightning"></use></svg>
+                                        <span class="dynamic-label">sehr Hoch</span>
+                                    </label>
+
+                                    <input type="radio" name="priority" id="level-4" value="4">
+                                    <label for="level-4">
+                                        <svg class="icon icon-large icon-lightning" title=""><use xlink:href="/images/symbol-defs.svg#icon-lightning"></use></svg>
+                                        <span class="dynamic-label">Hoch</span>
+                                    </label>                
+                                    
+                                    <input type="radio" name="priority" id="level-3" value="3">
+                                    <label for="level-3">
+                                        <svg class="icon icon-large icon-lightning" title=""><use xlink:href="/images/symbol-defs.svg#icon-lightning"></use></svg>
+                                        <span class="dynamic-label">Mittel</span>
+                                    </label>
+                                    
+                                    <input type="radio" name="priority" id="level-2" value="2">
+                                    <label for="level-2">
+                                        <svg class="icon icon-large icon-lightning" title=""><use xlink:href="/images/symbol-defs.svg#icon-lightning"></use></svg>
+                                        <span class="dynamic-label">Tief</span>
+                                    </label>
+                                    
+                                    <input type="radio" name="priority" id="level-1" value="1">
+                                    <label for="level-1">
+                                        <svg class="icon icon-large icon-lightning" title=""><use xlink:href="/images/symbol-defs.svg#icon-lightning"></use></svg>
+                                        <span class="dynamic-label">sehr Tief</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-fields">
+                            <div class="form-field">
+                                <label for="description">Beschreibung</label>
+                                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-fields">
+                            <div class="form-field">
+                                <button type="submit" class="button primary">Notiz Speichern</button>
+                                <input type="hidden" name="createdDate" id="created-date" value="">
+                                <input type="hidden" name="id" id="entry-id" value="">
+                                <a href="index.html" class="abort">Abbrechen</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </article>
+        </main>
+        
+        <footer class="site-footer">
+            <p>Projektarbeit № 1 · 2017 CAS FEE HSR · notee</p>
+            <p>by <strong>Marcel Maurice Naef</strong></p>
+        </footer>
+        
+
+        <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
+        <script src="js/shared.js"></script>
+        <script src="js/notesStorage.js"></script>
+    </body>
+</html>
