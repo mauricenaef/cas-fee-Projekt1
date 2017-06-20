@@ -587,11 +587,11 @@ label {
 }
 
 .show-done-label:before {
-	content: "Show ";
+	content: "Hide ";
 }
 
 .show-done:checked ~ .show-done-label:before {
-	content: "Hide ";
+	content: "Show ";
 }
 
 /*********************

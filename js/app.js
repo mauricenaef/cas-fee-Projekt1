@@ -21,38 +21,20 @@ $(window).on('load', function () {
 		let notesTemplateData = Handlebars.compile (notesTemplate);
 
 		// Build
-		displayNotes();
+		renderNotes();
 
 
-		function displayNotes() {
+		function renderNotes() {
 			
 			let output = notesTemplateData(noteData);
-			//let filter = localStorage.getItem("filter");
+			let filter = localStorage.getItem("filter");
+			let data =  $.grep(noteData.notes, function(e){ return e.done === false; });
+			let newNoteData = {notes: data};
 
-			console.log(noteData.notes);
-
-			//if (filter) {
-			//
-			//	console.log('filter is active');
-			//	noteData = $.grep(noteData, function(v, i){
-			//		
-			//		//return noteData.notes[i].done === false;
-//
-			//		console.log(noteData.v[i].done);
-			//	
-			//	});	
-//
-			//	$('#note').html(output);
-//
-			//} else {
-			//	
-			//	console.log('filter is in active');
-			//	$('#note').html(output);
-			//
-			//}
-
+			if (filter) {
+				output = notesTemplateData(newNoteData);
+			}
 			
-
 			$('#note').html(output);	
 
 		}	
@@ -82,7 +64,7 @@ $(window).on('load', function () {
 
 			}
 
-			displayNotes();
+			renderNotes();
 
 		}
 
@@ -123,7 +105,7 @@ $(window).on('load', function () {
 
 				updateNotes( noteData );
 
-				displayNotes();
+				renderNotes();
 
 			} else if ( action === 'edit') {
 
@@ -137,14 +119,23 @@ $(window).on('load', function () {
 
 		// Filter options set on checkbox change
 		$( document ).on( 'change', '#show-done', function() {
+			
 			if ($(this).is(":checked")) {
 			    localStorage.setItem("filter", $(this).val());
 			} else {
 			    localStorage.removeItem("filter");
 			}
 
+			
+			//let data =  $.grep(noteData.notes, function(e){ return e.done === false; });
+			//let newNoteData = {notes: data};
+
+			
+			//console.log(newNoteData);
+			//console.log(noteData);
+			
 			// Rebuild Notes
-			displayNotes();
+			renderNotes();
 
 		});
 
@@ -178,7 +169,7 @@ $(window).on('load', function () {
 		});
 
 		// Listen for Filter
-		$( document ).on( 'click', '.filter-item', function(event) {
+		$( document ).on( 'click', '.filter-item', function(e) {
 			
 			let sortValue = $(this).data('value');
 			
