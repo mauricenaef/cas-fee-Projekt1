@@ -1,121 +1,122 @@
-// Set Filter Checkbox 
-$(window).on('load', function () {
-
-	var filter = localStorage.getItem("filter");
-	
-	if (filter !== null) {
-	    $("input[name='show-done']").attr("checked", "checked");
-	}
-
-});
+"use strict";
 
 (function($) { 
 
-	$(function() {
+	// Set Data as Variable
+	let noteData = JSON.parse(localStorage.notes);
 
-		// Set Data as Variable
-		let noteData = JSON.parse(localStorage.notes);
+	// Compile Handlebars Template
+	let notesTemplate = $('#notesTemplate').html();
+	let notesTemplateData = Handlebars.compile (notesTemplate);
 
-		// Compile Handlebars Template
-		let notesTemplate = $('#notesTemplate').html();
-		let notesTemplateData = Handlebars.compile (notesTemplate);
+	let renderNotes = function () {
+		
+		let output = notesTemplateData(noteData);
+		let filter = localStorage.getItem("filter");
+		let data =  $.grep(noteData.notes, function(e){ return e.done === false; });
+		let newNoteData = {notes: data};
 
-		// Build
+		if (filter) {
+			output = notesTemplateData(newNoteData);
+		}
+		
+		$('#note').html(output);	
+
+	}
+
+	let updateNotes = function ( noteData ) {
+
+		localStorage.setItem("notes", JSON.stringify( noteData) );
+
+	}
+
+	let sortBy = function ( sortValue ) {
+		
+		if ( sortValue === 'priority' ) {
+		
+			noteData.notes.sort(function(a, b){return b[sortValue] - a[sortValue]});
+		
+		} else {
+
+			noteData.notes.sort(function(a, b){
+			
+			    let x = a[sortValue].toLowerCase();
+			    let y = b[sortValue].toLowerCase();
+			    if (x < y) {return -1;}
+			    if (x > y) {return 1;}
+			    return 0;
+			});
+
+		}
+
 		renderNotes();
 
+	}
 
-		function renderNotes() {
+	let setStatus = function (element, value) {
+
+		let id = $(element).data('id');
+		let status = $(element).data('done');
+		
+		for (let i = 0; i < noteData.notes.length; i++) {
+
+			if( noteData.notes[i].ID === id ){  
+			    
+			    noteData.notes[i].done = value;  
 			
-			let output = notesTemplateData(noteData);
-			let filter = localStorage.getItem("filter");
-			let data =  $.grep(noteData.notes, function(e){ return e.done === false; });
-			let newNoteData = {notes: data};
-
-			if (filter) {
-				output = notesTemplateData(newNoteData);
+			    break;  
 			}
-			
-			$('#note').html(output);	
-
-		}	
-
-		function updateNotes( noteData ) {
-			
-			localStorage.setItem("notes", JSON.stringify( noteData) );
-
 		}
 
-		function sortBy( sortValue ) {
-			
-			if ( sortValue === 'priority' ) {
-			
-				noteData.notes.sort(function(a, b){return b[sortValue] - a[sortValue]});
-			
-			} else {
+		updateNotes( noteData );
 
-				noteData.notes.sort(function(a, b){
-				
-				    let x = a[sortValue].toLowerCase();
-				    let y = b[sortValue].toLowerCase();
-				    if (x < y) {return -1;}
-				    if (x > y) {return 1;}
-				    return 0;
-				});
+	}
 
-			}
+	// Edit or delete
+	let editItem = function ( element, action ) {
 
-			renderNotes();
-
-		}
-
-		function setStatus(element, value) {
-
-			let id = $(element).data('id');
-			let status = $(element).data('done');
-			
+		let id = $(element).data('id');
+					
+		if ( action === 'delete' ) {
 			for (let i = 0; i < noteData.notes.length; i++) {
 
-				if( noteData.notes[i].ID === id ){  
-				    
-				    noteData.notes[i].done = value;  
-				
-				    break;  
+				if( noteData.notes[i].ID === id ){
+					noteData.notes.splice( i, 1 );
 				}
+
 			}
+
+			console.log('item ' + id + ' deleted' );
 
 			updateNotes( noteData );
 
+			renderNotes();
+
+		} else if ( action === 'edit') {
+
+			console.log('edit item');
+
+			window.location.replace( "new-note.html?formID=" + id );
+
+		}			
+
+	}
+
+	// Set Filter Checkbox 
+	$(window).on('load', function () {
+
+		var filter = localStorage.getItem("filter");
+		
+		if (filter !== null) {
+		    $("input[name='show-done']").attr("checked", "checked");
 		}
 
-		// Edit or delete
-		function editItem( element, action ) {
+	});
 
-			let id = $(element).data('id');
-						
-			if ( action === 'delete' ) {
-				for (let i = 0; i < noteData.notes.length; i++) {
+	$(function() {
 
-					if( noteData.notes[i].ID === id ){
-						noteData.notes.splice( i, 1 );
-					}
-
-				}
-
-				console.log('item ' + id + ' deleted' );
-
-				updateNotes( noteData );
-
-				renderNotes();
-
-			} else if ( action === 'edit') {
-
-				console.log('edit item');
-
-				window.location.replace( "new-note.html?formID=" + id );
-
-			}			
-
-		}
+		// Build
+		renderNotes();
 
 		// Filter options set on checkbox change
 		$( document ).on( 'change', '#show-done', function() {
@@ -125,14 +126,6 @@ $(window).on('load', function () {
 			} else {
 			    localStorage.removeItem("filter");
 			}
-
-			
-			//let data =  $.grep(noteData.notes, function(e){ return e.done === false; });
-			//let newNoteData = {notes: data};
-
-			
-			//console.log(newNoteData);
-			//console.log(noteData);
 			
 			// Rebuild Notes
 			renderNotes();

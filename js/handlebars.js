@@ -1,3 +1,5 @@
+"use strict";
+
 // Set Add Class is-done
 Handlebars.registerHelper( 'isDone', function(status) {
     
