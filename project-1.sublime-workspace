@@ -1,0 +1,1538 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"sh",
+				"show-done"
+			],
+			[
+				"shwo",
+				"show-done-label"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"n",
+				"not-allowed"
+			],
+			[
+				"brandColor",
+				"brandColor2"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"ba",
+				"baseColor"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"list",
+				"list-item"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"alig",
+				"align-content"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"bg",
+				"bgColorAlt"
+			],
+			[
+				"b",
+				"brandColor2"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"s",
+				"stretch"
+			],
+			[
+				"r",
+				"row"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"flex",
+				"flex"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"text-tr",
+				"text-transform"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bran",
+				"brandColor"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bra",
+				"brandColor"
+			],
+			[
+				"in",
+				"inline-radio-list"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"day",
+				"dayColorPrimary"
+			],
+			[
+				"con",
+				"console.log();"
+			],
+			[
+				"berei",
+				"bereichs_ziel_2"
+			],
+			[
+				"bereich",
+				"bereichs_ziel_1"
+			],
+			[
+				"unternehmens_z",
+				"unternehmens_ziel_2"
+			],
+			[
+				"zie",
+				"ziel_1"
+			],
+			[
+				"ui-da",
+				"ui-datepicker-month"
+			],
+			[
+				"apwh_re",
+				"apwh_results_data"
+			],
+			[
+				"read",
+				"read_only"
+			],
+			[
+				"timest",
+				"timestamp"
+			],
+			[
+				"current",
+				"current_time"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"qu",
+				"questionaire"
+			],
+			[
+				"site",
+				"site-copyright"
+			],
+			[
+				"wiss",
+				"wissen-und-herz"
+			],
+			[
+				"wi",
+				"wissen-und-herz"
+			],
+			[
+				"gfie",
+				"gfield_description"
+			],
+			[
+				"gin",
+				"ginput_container"
+			],
+			[
+				"gfield",
+				"gfield_list"
+			],
+			[
+				"ligh",
+				"light-gray"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"secondar",
+				"secondary-color"
+			],
+			[
+				"light",
+				"light-gray"
+			],
+			[
+				"dar",
+				"dark-gray"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"fl",
+				"flex"
+			],
+			[
+				"icon",
+				"icon_swap"
+			],
+			[
+				"fade",
+				"fade-me-in"
+			],
+			[
+				"slide",
+				"slideDown"
+			],
+			[
+				"be",
+				"betrag"
+			],
+			[
+				"input",
+				"input-error"
+			],
+			[
+				"e",
+				"elseif\telseif …"
+			],
+			[
+				"sl",
+				"slideDown"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"pro",
+				"primary-color"
+			],
+			[
+				"rea",
+				"readonly\tAttr"
+			],
+			[
+				"end",
+				"end-betrag"
+			],
+			[
+				"open",
+				"open-input"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"fre",
+				"freier-betrag"
+			],
+			[
+				"fr",
+				"freier-betrag"
+			],
+			[
+				"to",
+				"toFixed"
+			],
+			[
+				"loca",
+				"location1"
+			],
+			[
+				"sit",
+				"site-section"
+			],
+			[
+				"li",
+				"light_theme_class"
+			],
+			[
+				"cha",
+				"chart_title"
+			],
+			[
+				"chart",
+				"chart_title"
+			],
+			[
+				"char",
+				"chart_title"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"term",
+				"term_exists"
+			],
+			[
+				"asi",
+				"aside_function"
+			],
+			[
+				"swi",
+				"switch-color"
+			],
+			[
+				"sw",
+				"switch-bg-color"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"ta",
+				"taxonomy"
+			],
+			[
+				"whi",
+				"white"
+			],
+			[
+				"up",
+				"uppercase"
+			],
+			[
+				"mAR",
+				"margin-bottom"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"is_ta",
+				"is_tax"
+			],
+			[
+				"pr",
+				"produkte_meta"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"al",
+				"alert-color"
+			],
+			[
+				"col",
+				"column-gap"
+			],
+			[
+				"term_de",
+				"term_desc"
+			],
+			[
+				"is_st",
+				"is_sticky"
+			],
+			[
+				"get_he",
+				"get_header"
+			],
+			[
+				"name",
+				"name_last"
+			],
+			[
+				"is_ar",
+				"is_archive"
+			],
+			[
+				"main",
+				"main-nav"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"entr",
+				"entry_count"
+			],
+			[
+				"fi",
+				"fill"
+			],
+			[
+				"la",
+				"latitude"
+			],
+			[
+				"map",
+				"map_data"
+			],
+			[
+				"arra",
+				"array"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 3513,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new-note.html",
+			"settings":
+			{
+				"buffer_size": 7347,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/notesStorage.js",
+			"settings":
+			{
+				"buffer_size": 1177,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/shared.js",
+			"settings":
+			{
+				"buffer_size": 628,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7656,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/handlebars.js",
+			"settings":
+			{
+				"buffer_size": 1229,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: custom_note"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pre",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pr",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: break",
+				"Snippet: custom_breakpoint"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: sv",
+				"Snippet: custom_svg_path"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 556.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee",
+		"/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee/css",
+		"/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee/images",
+		"/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee/js"
+	],
+	"file_history":
+	[
+		"/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee/new-note.html",
+		"/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee/js/shared.js",
+		"/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee/js/handlebars.js",
+		"/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee/js/notesStorage.js",
+		"/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee/index.html",
+		"/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee/css/style.css",
+		"/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee/images/loading.svg",
+		"/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee/js/app.js",
+		"/Users/mauricenaef/Sites/dev/hsr/Eigene Übungen/radius.html",
+		"/Users/mauricenaef/Sites/dev/hsr/Eigene Übungen/superobjects.html",
+		"/Users/mauricenaef/Sites/dev/hsr/Eigene Übungen/inheritance.html",
+		"/Users/mauricenaef/Library/Application Support/Sublime Text 3/Packages/JavaScript Completions/JavaScript-Completions.sublime-settings",
+		"/Users/mauricenaef/Library/Application Support/Sublime Text 3/Packages/User/JavaScript-Completions.sublime-settings",
+		"/Users/mauricenaef/Sites/dev/hsr/CAS_FEE_Abend_JS_OOP-master/v2/Zoo.js",
+		"/Users/mauricenaef/Sites/dev/hsr/CAS_FEE_Abend_JS_OOP-master/Zoo.html",
+		"/Users/mauricenaef/Sites/dev/hsr/CAS_FEE_Abend_JS_OOP-master/Zoo.js",
+		"/Users/mauricenaef/Sites/dev/hsr/CAS_FEE_Abend_JS_OOP-master/v1/Zoo.js",
+		"/Users/mauricenaef/Sites/dev/hsr/CAS-FEE-DOM-Demo-Aufgaben.clean/3_MusicExercise/Music05JQuery_BubblingEventsExercise.html",
+		"/Users/mauricenaef/Sites/dev/hsr/CAS-FEE-DOM-Demo-Aufgaben.clean/3_MusicExercise/Music03InnerHTML_InlineEventsSolution.html",
+		"/Users/mauricenaef/Sites/dev/hsr/CAS-FEE-DOM-Demo-Aufgaben.clean/3_MusicExercise/Music03InnerHTML_InlineEventsExercise.html",
+		"/Users/mauricenaef/Sites/dev/hsr/CAS-FEE-DOM-Demo-Aufgaben.clean/3_MusicExercise/Music02AppendChildBasicSolution.html",
+		"/Users/mauricenaef/Sites/dev/hsr/CAS-FEE-DOM-Demo-Aufgaben.clean/3_MusicExercise/Music02AppendChildBasicExercise.html",
+		"/Users/mauricenaef/Sites/dev/hsr/CAS-FEE-DOM-Demo-Aufgaben.clean/2_DOM/4_whitespaceDemo.html",
+		"/Users/mauricenaef/Library/Application Support/Sublime Text 3/Packages/User/node.sublime-build",
+		"/Users/mauricenaef/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/mauricenaef/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Uebungen/data-sharing/sftp-config.json",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/21_Symbol/iterator/src/iterator.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/21_Symbol/iterator/index.html",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/15_use strict/04_use strict_examples.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/12_functions/11_ArrowThis.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Uebungen/data-sharing/list.html",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/18_Hoisting/HoistingV2.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/18_Hoisting/HoistingV3.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/18_Hoisting/HoistingV7.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/21_Symbol/symbol.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/18_Hoisting/HoistingV8.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Uebungen/scope/scope2.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Uebungen/scope/scope1.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Uebungen/functions/function1.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Uebungen/context/context.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/12_functions/03b_RestParams.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/11_Object/03_interceptor.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/10_Array/02_iteration.js",
+		"/Users/mauricenaef/Sites/dev/hsr/javascript-Übungen/Vorlesung/Vorlesung/04_String/02_template.js",
+		"/Users/mauricenaef/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-build",
+		"/Users/mauricenaef/Sites/dev/dachlade.dev/wp-content/themes/dachlade.2016/bower_components/foundation-sites/scss/util/_flex.scss",
+		"/Users/mauricenaef/Sites/dev/dachlade.dev/wp-content/themes/dachlade.2016/scss/layout/_header.scss",
+		"/Users/mauricenaef/Sites/dev/dachlade.dev/wp-content/themes/dachlade.2016/includes/admin-sections.php",
+		"/Users/mauricenaef/Sites/dev/dachlade.dev/wp-content/themes/dachlade.2016/header.php",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/includes/admin-user.php",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/sidebar.php",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/modules/_forms-gravity.scss",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/includes/admin-fragen-daten.php",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/includes/admin-fragen.php",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/index.php",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/page-resultat.php",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/page-mitarbeiter.php",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/scss/_small.scss",
+		"/Users/mauricenaef/Library/Application Support/IconJar/IconJar.ijlibrary/Sets/D595936D-A0E8-4FC5-97FE-9AECA93CC876/default.svg",
+		"/Users/mauricenaef/Library/Application Support/IconJar/IconJar.ijlibrary/Sets/C3A53547-C168-4808-B29C-75D619D5C8E2/tri.svg",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/1333B7C1-6547-4C68-B57E-D6181FFA6B34/team.cfm",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/archive-ereignisse.php",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/includes/admin-ereignisse.php",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/scss/_print.scss",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/64032D4E-F667-4BA1-9D08-8A8186FFBAA5/wp-mail.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/C0E3FC53-820D-4DC4-9638-647FBF8E795D/.htaccess",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/8E559E8E-8D97-4229-832B-BB31A0AB2C50/index.html",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/84EA8A7C-D7ED-41C8-BFB7-A372DB2F81F4/single.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/03AB3506-3C0A-4AE3-A301-D7C104DFBEFD/search.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/8D7030C8-3A93-4CDD-BEAF-F050D6B70EE1/page.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/2D32C0CC-E4CB-4780-B0AD-C4B4AEE5858B/header.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/8DC63148-F427-4BF7-A961-AFB3E88787B0/footer.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/BA536261-95EC-4FFA-8D36-D21C1617E1AD/index.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/38DDEF5D-3476-444C-B854-D734E563D8BC/functions.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/9D974DC3-5149-49FF-A222-07B8FE4F5D8B/404.php",
+		"/Users/mauricenaef/Sites/dev/dachlade.dev/wp-content/themes/dachlade.2016/template-parts/zimmer-list.php",
+		"/Users/mauricenaef/Sites/dev/ishik.dev/wp-content/themes/ishik.2015/category-events.php",
+		"/Users/mauricenaef/Sites/dev/ishik.dev/wp-content/themes/ishik.2015/template-parts/event-none.php",
+		"/Users/mauricenaef/Sites/dev/ishik.dev/wp-content/themes/ishik.2015/scss/partials/_posts.scss",
+		"/Users/mauricenaef/Sites/dev/geburtschaft.dev/wp-content/themes/geburtschaft.2017/includes/admin-admin.php",
+		"/Users/mauricenaef/Sites/dev/geburtschaft.dev/wp-content/themes/geburtschaft.2017/functions.php",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/includes/admin-resultate.php",
+		"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014/header.php",
+		"/Users/mauricenaef/Library/Application Support/IconJar/IconJar.ijlibrary/Sets/6BB92E05-CBB8-44E6-97C4-1C8376802016-3360-000006FC54773852/construction wall.svg",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/BA06C459-5A37-4F3E-A5C7-E0964197C73A/wp-config.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/ECB8D115-6FE9-48F6-B0BD-A861D87FC023/wp-config.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/F95B4001-4EE7-4BBD-89CB-676A66D41DC4/.htaccess",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/A0F4F547-39B1-4592-90DD-E68FBA3580F9/ref.js",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/E7FB29E0-94FC-4D37-9774-8223A1934C8F/home.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/5FB9AAF8-43E6-45C5-A8A9-DFCAA2E6BC4B/index.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/6B39EA29-1750-4DD0-8EAE-03D4432A7985/intro.php",
+		"/Users/mauricenaef/Library/Caches/Cleanup At Startup/Transmit/8C533085-14A5-4D6B-8F21-AECD18B56CFA/syslib.php",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/layout/_content.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/editor-styles.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/_settings.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/style.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/includes/admin-mce.php",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/functions.php",
+		"/Users/mauricenaef/Sites/dev/dachlade.dev/wp-content/themes/dachlade.2016/scss/modules/_forms.scss",
+		"/Users/mauricenaef/Sites/dev/dachlade.dev/wp-content/themes/dachlade.2016/footer.php",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/layout/_footer.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/layout/_header.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/index.php",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/vendor/_addtoany.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/js/app.js",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/layout/_intro.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/modules/_forms.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/images/loading-white.svg",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/layout/_base.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/images/loading.svg",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/images/wissen-und-herz.svg",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/modules/_typography.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/vendor/_select2.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/modules/_buttons.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/bower_components/select2/src/scss/theme/classic/_defaults.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/vendor/_chosen.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/js/app.min.js",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/scss/_mixins.scss",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/style.css",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/includes/admin-admin.php",
+		"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017/includes/admin-widgets.php",
+		"/Users/mauricenaef/Library/Application Support/IconJar/IconJar.ijlibrary/Sets/81296915-618B-4C10-A646-E56CE5F90F6C-3360-000006FC3C5F4687/binoculars.svg",
+		"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/plugins/ajax-donations-via-stripe-checkout/layouts/exact.php",
+		"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015/scss/partials/_icons.scss",
+		"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015/includes/style/admin.scss",
+		"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015/scss/editor-styles.scss",
+		"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015/functions.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 164.0,
+		"where_history":
+		[
+			"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014",
+			"/Users/mauricenaef/Sites/dev/pob.geburtschaft.dev/wp-content/themes/pob.geburtschaft.2017",
+			"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/plugins/ajax-donations-via-stripe-checkout",
+			"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015",
+			"/Users/mauricenaef/Sites/dev/schreinerei-rw.dev/wp-content/themes/schreinerei-rw.2016",
+			"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015",
+			"/Users/mauricenaef/Sites/dev/schreinerei-rw.dev/wp-content/themes/schreinerei-rw.2016",
+			"/Users/mauricenaef/Sites/dev/rot-gelb-gruen.dev/wp-content/themes/rot-gelb-gruen.2013",
+			"/Users/mauricenaef/Sites/dev/clients.mauricenaef.dev/wp-content/themes/clients.mauricenaef.2014",
+			"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015",
+			"/Users/mauricenaef/Sites/dev/apwh-mq.dev/wp-content/themes/apwh-mq.2014",
+			"<current file>",
+			"/Users/mauricenaef/Sites/dev/rstechnik.dev/wp-content/themes/rstechnik.2016",
+			"<current file>",
+			"/Users/mauricenaef/Sites/dev/hffc.dev/wp-content/themes/hffc.2016",
+			"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015",
+			"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015/includes",
+			"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015",
+			"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015/scss/partials",
+			"<current file>,/Users/mauricenaef/Sites/dev/allekurse.dev/wp-content/themes/allekurse.2015",
+			"<current file>",
+			"<current file>,/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015",
+			"<current file>",
+			"/Users/mauricenaef/Sites/dev/newtree.dev/wp-content/themes/newtree.2015",
+			"<current file>,/Users/mauricenaef/Sites/dev/bellparklegal.dev",
+			"<current file>",
+			"/Users/mauricenaef/Sites/dev/puregrey.dev/wp-content/themes/puregrey.2015",
+			"<current file>,/Users/mauricenaef/Sites/dev/bellparklegal.dev/wp-content/themes/bellparklegal.2015",
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"setStatus",
+			"v2",
+			"v1",
+			"createdDate",
+			"hide",
+			"var",
+			"notesTemplateData",
+			"noteData.notes",
+			"displayNotes",
+			"156px",
+			"6",
+			"2s",
+			"18",
+			"38",
+			"z-index",
+			"entries",
+			"entries-list",
+			"noteData",
+			"error_1",
+			"errors",
+			"var",
+			"key",
+			"sortBy",
+			"filter-item",
+			"showDone",
+			"data",
+			"showDone",
+			"isDone",
+			"favorite",
+			"favorites",
+			"show-done",
+			"data",
+			"favorite",
+			"filterValue",
+			"currentTheme",
+			"setStatus",
+			"var",
+			"#icon",
+			"checked",
+			".checked",
+			"setDone",
+			"status",
+			"done",
+			"setDisable",
+			"note",
+			"noteData",
+			"persons",
+			"var",
+			"checked",
+			"filter",
+			"sortByDueDate",
+			"data",
+			"notes",
+			"noteData",
+			"note",
+			"noteData",
+			"dateCreated",
+			"importance",
+			"SortBy",
+			"sortByDueDate",
+			"sortBy",
+			"sortValue",
+			"name",
+			"dueDate",
+			"sortValue",
+			"dueDate",
+			"attr",
+			".toString()",
+			"sortByCreatedDate",
+			"sortByTitle",
+			"value",
+			"let",
+			"year",
+			"dueDate",
+			"title",
+			"type",
+			"cars",
+			"noteData.notes",
+			"year",
+			"checkmark",
+			"div",
+			"button",
+			"a>",
+			"a",
+			"created-date",
+			"var",
+			"importance",
+			"noteData",
+			"const",
+			"customerTemplate",
+			"note",
+			"customerTemplateText",
+			"customers",
+			"customerData",
+			"block",
+			"accum",
+			"block",
+			"dark",
+			"255",
+			"button",
+			"list",
+			"div",
+			"large",
+			"56px",
+			"transition",
+			"not",
+			"__",
+			"F9F8ED",
+			"F4E7D3",
+			"0881A3",
+			"255",
+			"0",
+			"g",
+			"h",
+			"i",
+			"k",
+			"rate",
+			"w",
+			"h3",
+			"first-name",
+			"comment",
+			"icon icon",
+			"icon-lightning",
+			"</div>",
+			"<div class=\"item\">",
+			"</li>",
+			"<li",
+			"li"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"vollständig erreicht",
+			"pob",
+			"schreinerei_rw",
+			"schreinerei-rw",
+			"wp_get_current_user",
+			"utf8",
+			"utf8_general_ci",
+			"//new.rstechnik.com",
+			"rstechnik",
+			"'",
+			"hffc",
+			"symbol-defs.svg",
+			"$global-radius",
+			"@include breakpoint(large) {",
+			"@include breakpoint(medium) {",
+			"@include breakpoint(small only) {",
+			"auto",
+			"fuehrerschein",
+			"fuhrerschein",
+			"allekurse",
+			"info-trigger trigger",
+			"",
+			"https://",
+			"bellparklegal.com",
+			"@media #{$medium-up} {",
+			"@media #{$small-only} {",
+			"__construct(",
+			"newtree",
+			"@media",
+			"$",
+			"@mixin \\1\\(\\2\\)\\n{",
+			"$",
+			"font-family-serif",
+			"bellparklegal",
+			"puregrey",
+			"Puregrey",
+			"bellparklegal",
+			"ishik"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/mauricenaef/Sites/dev/hsr/Projekte/projekt-1 notee"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2033,
+								2033
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 331.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "new-note.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2871,
+								2878
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 617.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/notesStorage.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								584,
+								584
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/shared.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1761,
+								1761
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 773.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/handlebars.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1229,
+								1229
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 242.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Nodejs/Nodejs.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"hea",
+				"scss/layout/_header.scss"
+			],
+			[
+				"foot",
+				"scss/layout/_footer.scss"
+			],
+			[
+				"sec",
+				"includes/admin-sections.php"
+			],
+			[
+				"nav",
+				"scss/partials/_navigation.scss"
+			],
+			[
+				"ue",
+				"page-ueber-uns.php"
+			],
+			[
+				"team",
+				"scss/partials/_team-list.scss"
+			],
+			[
+				"typ",
+				"scss/partials/_typography.scss"
+			],
+			[
+				"_team",
+				"scss/partials/_team-list.scss"
+			],
+			[
+				"content",
+				"scss/partials/_content.scss"
+			],
+			[
+				"admin-s",
+				"includes/admin-sections.php"
+			],
+			[
+				"_hea",
+				"scss/partials/_header.scss"
+			],
+			[
+				"admin-w",
+				"includes/admin-woocommerce.php"
+			],
+			[
+				"payme",
+				"woocommerce/checkout/payment-method.php"
+			],
+			[
+				"pay",
+				"images/SVG/payment-methods.svg"
+			],
+			[
+				"forms",
+				"scss/partials/_forms.scss"
+			],
+			[
+				"page-ko",
+				"page-kontakt.php"
+			],
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"ty",
+				"scss/partials/_typography.scss"
+			],
+			[
+				"gl",
+				"scss/_global.scss"
+			],
+			[
+				"_foo",
+				"scss/partials/_footer.scss"
+			],
+			[
+				"sett",
+				"scss/_settings.scss"
+			],
+			[
+				"_woo",
+				"scss/partials/_woocommerce.scss"
+			],
+			[
+				"se",
+				"scss/_settings.scss"
+			],
+			[
+				"glo",
+				"scss/_global.scss"
+			],
+			[
+				"spe",
+				"page-spenden.php"
+			],
+			[
+				"admin-c",
+				"includes/admin-cmb.php"
+			],
+			[
+				"op",
+				"includes/admin-options-page.php"
+			],
+			[
+				"fo",
+				"footer.php"
+			],
+			[
+				"form-sh",
+				"woocommerce/checkout/form-shipping.php"
+			],
+			[
+				"_form",
+				"scss/partials/_forms.scss"
+			],
+			[
+				"_typo",
+				"scss/partials/_typography.scss"
+			],
+			[
+				"form",
+				"woocommerce/checkout/form-shipping.php"
+			],
+			[
+				"che",
+				"woocommerce/checkout/form-checkout.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"fron",
+				"front-page.php"
+			],
+			[
+				"sect",
+				"scss/.sass-cache/b91652bfe4be6bbb9f37cce2f8347de0e8e77f01/_sections.scssc"
+			],
+			[
+				"set",
+				"scss/_settings.scss"
+			],
+			[
+				"bre",
+				"includes/admin-breadcrumbs.php"
+			],
+			[
+				"admin",
+				"includes/admin-systeme.php"
+			],
+			[
+				"ap",
+				"js/app.js"
+			],
+			[
+				"st",
+				"scss/style.scss"
+			],
+			[
+				"sty",
+				"editor-styles.css"
+			],
+			[
+				"bas",
+				"scss/layout/_base.scss"
+			],
+			[
+				"he",
+				"scss/layout/_header.scss"
+			],
+			[
+				"menu",
+				"scss/.sass-cache/6a56ff931c3ddc2225bc44d2d78ea143cbf81313/_menu.scssc"
+			],
+			[
+				"ba",
+				"scss/layout/_base.scss"
+			],
+			[
+				"for",
+				"scss/modules/_forms.scss"
+			],
+			[
+				"but",
+				"scss/modules/_buttons.scss"
+			],
+			[
+				"new",
+				"includes/admin-news.php"
+			],
+			[
+				"admin-se",
+				"includes/admin-sections.php"
+			],
+			[
+				"t",
+				"scss/modules/_typography.scss"
+			],
+			[
+				"icon",
+				"scss/modules/_icons.scss"
+			],
+			[
+				"cm",
+				"includes/admin-cmb.php"
+			],
+			[
+				"cmb",
+				"includes/admin-cmb.php"
+			],
+			[
+				"s",
+				"scss/style.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

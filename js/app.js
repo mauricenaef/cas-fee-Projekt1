@@ -53,7 +53,7 @@
 
 	}
 
-	let setStatus = function (element, value) {
+	let setStatus = function ( element, value ) {
 
 		let id = $(element).data('id');
 		let status = $(element).data('done');
@@ -62,7 +62,9 @@
 
 			if( noteData.notes[i].ID === id ){  
 			    
-			    noteData.notes[i].done = value;  
+			    noteData.notes[i].done = value; 
+
+			    noteData.notes[i].doneDate = (noteData.notes[i].doneDate === '' ) ? moment().unix() : ''; 
 			
 			    break;  
 			}
@@ -86,7 +88,7 @@
 
 			}
 
-			console.log('item ' + id + ' deleted' );
+			//console.log('item ' + id + ' deleted' );
 
 			updateNotes( noteData );
 

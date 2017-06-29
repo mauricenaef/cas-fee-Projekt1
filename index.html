@@ -65,7 +65,15 @@
                                     </svg>
                                 </div>
                                 <div class="details">
-                                    <h3 class="list-title">{{ title }} <span class="created-date"><time datetime="{{ createdDate }}">{{ convertDateTimestamp createdDate }}</time></span></h3>
+                                    <h3 class="list-title">{{ title }} 
+                                        <span class="created-date">
+                                            {{#if doneDate}}
+                                            <time datetime="{{ doneDate }}">Erledigt am: {{ convertDateTimestamp doneDate }}</time>
+                                            {{else}}
+                                            <time datetime="{{ createdDate }}">Erstellt am: {{ convertDateTimestamp createdDate }}</time>
+                                            {{/if}}
+                                        </span>
+                                    </h3>
                                     {{ autoP description }}
                                 </div>
                                 <div class="due-date">
@@ -116,7 +124,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
         <script src="js/shared.js"></script>
-        <script src="js/handlebars.js"></script>
+        
+        <script src="js/handlebarsHelpers.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>
