@@ -55,43 +55,43 @@
                       <div class="form-fields">
                         <div class="form-field">
                           <label for="title">Titel</label>
-                          <input type="text" name="title" id="title" placeholder="Titel" required="true" value="{{ title }}">
+                          <input type="text" name="title" id="title" placeholder="Titel" required="true" tabindex="1" value="{{ title }}">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-fields">
                             <div class="form-field">
                                 <label for="date">Fälligkeit</label>
-                                <input type="date" id="due-date" name="dueDate" value="{{ dueDate }}">
+                                <input type="date" id="due-date" name="dueDate" tabindex="2" value="{{ dueDate }}">
                             </div>
                             <div class="form-field">
                                 <label for="priority">Dringlichkeit</label>
                                 <div class="inline-radio rating">
-                                    <input type="radio" name="priority" id="level-5" value="5" {{{ isChecked 5 priority }}}>
+                                    <input type="radio" name="priority" id="level-5" value="5" tabindex="7" {{{ isChecked 5 priority }}}>
                                     <label for="level-5">
                                         <svg class="icon icon-large icon-lightning" title=""><use xlink:href="/images/symbol-defs.svg#icon-lightning"></use></svg>
                                         <span class="dynamic-label">sehr Hoch</span>
                                     </label>
 
-                                    <input type="radio" name="priority" id="level-4" value="4" {{{ isChecked 4 priority }}}>
+                                    <input type="radio" name="priority" id="level-4" value="4" tabindex="6" {{{ isChecked 4 priority }}}>
                                     <label for="level-4">
                                         <svg class="icon icon-large icon-lightning" title=""><use xlink:href="/images/symbol-defs.svg#icon-lightning"></use></svg>
                                         <span class="dynamic-label">Hoch</span>
                                     </label>                
                                     
-                                    <input type="radio" name="priority" id="level-3" value="3" {{{ isChecked 3 priority }}}>
+                                    <input type="radio" name="priority" id="level-3" value="3" tabindex="5" {{{ isChecked 3 priority }}}>
                                     <label for="level-3">
                                         <svg class="icon icon-large icon-lightning" title=""><use xlink:href="/images/symbol-defs.svg#icon-lightning"></use></svg>
                                         <span class="dynamic-label">Mittel</span>
                                     </label>
                                     
-                                    <input type="radio" name="priority" id="level-2" value="2" {{{ isChecked 2 priority }}}>
+                                    <input type="radio" name="priority" id="level-2" value="2" tabindex="4" {{{ isChecked 2 priority }}}>
                                     <label for="level-2">
                                         <svg class="icon icon-large icon-lightning" title=""><use xlink:href="/images/symbol-defs.svg#icon-lightning"></use></svg>
                                         <span class="dynamic-label">Tief</span>
                                     </label>
                                     
-                                    <input type="radio" name="priority" id="level-1" value="1" {{{ isChecked 1 priority }}}>
+                                    <input type="radio" name="priority" id="level-1" value="1" tabindex="3" {{{ isChecked 1 priority }}}>
                                     <label for="level-1">
                                         <svg class="icon icon-large icon-lightning" title=""><use xlink:href="/images/symbol-defs.svg#icon-lightning"></use></svg>
                                         <span class="dynamic-label">sehr Tief</span>
@@ -104,14 +104,14 @@
                         <div class="form-fields">
                             <div class="form-field">
                                 <label for="description">Beschreibung</label>
-                                <textarea name="description" id="description" cols="30" rows="10">{{description}}</textarea>
+                                <textarea name="description" id="description" cols="30" tabindex="8" rows="10">{{description}}</textarea>
                             </div>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-fields">
                             <div class="form-field">
-                                <button type="submit" id="submitButton" class="button primary">Notiz Speichern</button>
+                                <button type="submit" id="submitButton" tabindex="9" class="button primary">Notiz Speichern</button>
                                 <input type="hidden" name="createdDate" id="created-date" value="">
                                 <a href="index.html" class="abort">Abbrechen</a>
                             </div>

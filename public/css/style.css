@@ -11,7 +11,7 @@
 :root {
 	--baseColor: #1F4E5F;
 	--brandColor: #044f6b;
-	--brandColor2: #0cef89;
+	--brandColor2: #0cc5ef;
 	--bgColor: white;
 	--bgColorAlt: #f5f9fc;
 	--shadowColor: #dce5ec;
@@ -19,7 +19,7 @@
 :root.light {
 	--baseColor: #1F4E5F;
 	--brandColor: #044f6b;
-	--brandColor2: #0cef89;
+	--brandColor2: #0cc5ef;
 	--bgColor: white;
 	--bgColorAlt: #f5f9fc;
 	--shadowColor: #dce5ec;
@@ -40,6 +40,7 @@ body {
 	color: #111;
 	color: var(--baseColor);
 	font-family: 'Fira Sans', sans-serif;
+	font-weight: 400;
 	line-height: 1.6;
 }
 
@@ -118,7 +119,6 @@ body {
 
 .inline-radio input[type="radio"] ~ label span {
 	padding: .2em .75em 0 .75em;
-	font-weight: 400;
 }
 
 .inline-radio input[type="radio"]:checked ~ label {
@@ -161,7 +161,7 @@ body {
 	opacity: 1;
 	transition: all .15s ease-in-out;
 	z-index: 1;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 1rem;
 }
 
@@ -374,7 +374,6 @@ label {
 	padding: .75em 1.5em .7em;
 	text-transform: uppercase;
 	text-shadow: none;
-	font-weight: 400;
 	line-height: 1em;
 	font-style: normal;
 	text-align: center;
@@ -415,8 +414,6 @@ label {
 	text-transform: uppercase;
 }
 
-
-
 .loading:after {
 	content: "";
 	position: fixed;
@@ -435,7 +432,7 @@ label {
 }
 
 .list-count .count-container {
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .list-item {
@@ -485,7 +482,6 @@ label {
 }
 
 .list-item .dates {
-	font-weight: 400;
 	font-size: .8rem;
 	margin-bottom: .5em;
 }
