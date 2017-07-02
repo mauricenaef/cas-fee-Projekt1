@@ -40,37 +40,21 @@ class Note {
 
 }
 
-// Create Array to filter and Sort
-let noteDataToArray = function (items) {
-    var notes = [];
-    for ( let item of items ) {
-        notes.push( new Note( item._id, item.title, item.description, item.dueDate, item.priority, item.createdDate, item.done, item.doneDate ));
-    }
-    return notes;
-};
+// overwrite Array function to create sorting function
+if (!Array.prototype.sortBy) {
+    Array.prototype.sortBy = function (sortValue) {
+        // sort priority from to to bottom makes more sense
+        if (sortValue === "priority") {
+            return this.sort( function( a, b ){return b[sortValue] - a[sortValue]});
+        } else {
+            return this.sort( function( a, b ){return a[sortValue] - b[sortValue]});
+        }
+    };
+}
 
-// Create sorting function
-Array.prototype.sortBy = function (sortValue) {
-
-	
-	if ( sortValue === "priority" ) {
-	
-		return this.sort( function( a, b ){return b[sortValue] - a[sortValue]});
-	
-	} else {
-	
-		return this.sort( function( a, b ){return a[sortValue] - b[sortValue]});
-		
-	}
-
-};
-
-Array.prototype.filterBy = function () {
-
-	return this.filter( function (item) {
-
-	    return item.done == false;
-	
-	});
-
-};
+// overwrite Array function to create filter function
+if (!Array.prototype.filterBy) {
+    Array.prototype.filterBy = function () {
+        return this.filter( function (item) { return item.done == false; });
+    };
+}
