@@ -40,6 +40,7 @@
 	// Show number of notes
 	let updateNumberNotes = function () {
 		let numberContainer = $("#number-notes");
+		
 		noteData.getNotes().done(function(items){
 			let totalItemsCount = items.length;
 			let doneItemsCount = totalItemsCount - items.filter(function(obj){return obj.done === true}).length;

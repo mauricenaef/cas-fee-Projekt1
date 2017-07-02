@@ -11,5 +11,3 @@ Clone or download the project and open terminal in the project folder. Install d
 * `$ node index.js` to start the Webserver
 
 Your server should now be running on http://127.0.0.1:3066/
-
-## 
