@@ -30,11 +30,32 @@
 	}
 
 	// Set Status to done
-	let setStatus = function ( element, value ) {
+	let setStatus = function (element, value) {
 		let id = $(element).data("id");
 		noteData.setDone(id, value);
 
 		renderNotes();
+	}
+
+	// Show number of notes
+	let updateNumberNotes = function () {
+		let numberContainer = $("#number-notes");
+		noteData.getNotes().done(function(items){
+			let totalItemsCount = items.length;
+			let doneItemsCount = totalItemsCount - items.filter(function(obj){return obj.done === true}).length;
+			let filter = localStorage.getItem("filter") ? localStorage.getItem("filter") : false ;
+
+			if (filter === false || (totalItemsCount === doneItemsCount) ) {
+				if (totalItemsCount > 1) {
+					numberContainer.html(`${totalItemsCount} Notes`);
+				} else {
+					numberContainer.html(`${totalItemsCount} Note`);
+				}
+				
+			} else {
+				numberContainer.html(`${doneItemsCount} of ${totalItemsCount} Notes`);				
+			}
+		});
 	}
 	
 	// renderNotes
@@ -44,7 +65,10 @@
 		// set filter default
 		let filter = localStorage.getItem("filter") ? localStorage.getItem("filter") : false ;
 
+		updateNumberNotes();
+
 		noteData.getNotes().done(function(items){
+			
 			items = noteDataToArray(items);
 			items = items.sortBy(sort);
 			

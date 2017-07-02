@@ -16,3 +16,11 @@ if (!Array.prototype.filterBy) {
         return this.filter( function (item) { return item.done == false; });
     };
 }
+
+Object.size = function(obj) {
+    var size = 0, key;
+    for (key in obj) {
+        if (obj.hasOwnProperty(key)) size++;
+    }
+    return size;
+};

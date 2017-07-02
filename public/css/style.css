@@ -434,6 +434,10 @@ label {
 	margin: 1rem 0 2rem;
 }
 
+.list-count .count-container {
+	font-weight: 700;
+}
+
 .list-item {
 	display: flex;
 	justify-content: center;
@@ -459,8 +463,6 @@ label {
 	text-decoration: line-through;
 	opacity: .5 !important;
 }
-
-
 
 .list-item .status {
 	padding: 1rem 2rem 1rem 2rem;
