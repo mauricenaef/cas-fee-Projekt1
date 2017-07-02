@@ -21,13 +21,8 @@
 		let id = $(element).data("id");
 					
 		if (action === "delete") {
-			
-			/** 
-			* TODO: elete function still needs work
-			*/
-
-			// noteData.deleteNote( id );
-			alert("Item with ID " + id + "could not be deleted. Delete not implemented.");
+			noteData.deleteNote(id).done(function () {});
+			renderNotes();
 
 		} else if (action === "edit") {
 			window.location.replace( "new-note.html?id=" + id );

@@ -1,5 +1,8 @@
 const Datastore = require('nedb');
-const db = new Datastore({filename: './data/notes.db', autoload: true});
+const db = new Datastore({
+    filename: './data/notes.db', 
+    autoload: true
+});
 
 let getNotes = function (callback) {
     db.find({}, function (err, notes) {
@@ -30,9 +33,7 @@ let editNote = function (note, callback) {
 };
 
 let deleteNote = function (id, callback) {
-    db.remove({_id: note._id}, {}, function (err, note) {
-        callback(err, note);
-    });
+    db.remove({_id: id}, callback);
 };
 
 let setDone = function (note, callback) {

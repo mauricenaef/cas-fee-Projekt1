@@ -30,9 +30,6 @@ module.exports.setDone = function (req, res) {
     });
 };
 
-module.exports.deleteNote = function (req, res) {
-    //console.log(res);
-    store.deleteNote(req.params.id, {}, function (err, note) {
-        res.json(note);
-    });
+module.exports.deleteNote = function (req) {
+    store.deleteNote(req.params.id, {}, function (err, note) {});
 };

@@ -42,7 +42,7 @@
     }
 
     function deleteNote( id ) {
-        return ajaxUtil.ajax("DELETE", "/note/" + id + "/delete", );
+        return ajaxUtil.ajax("DELETE", "/note/" + id, undefined);
     }
 
     services.restClient = {
