@@ -41,7 +41,7 @@
 	let updateNumberNotes = function () {
 		let numberContainer = $("#number-notes");
 		
-		noteData.getNotes().done(function(items){
+		noteData.getNotes().done( function (items) {
 			let totalItemsCount = items.length;
 			let doneItemsCount = totalItemsCount - items.filter(function(obj){return obj.done === true}).length;
 			let filter = localStorage.getItem("filter") ? localStorage.getItem("filter") : false ;
@@ -68,7 +68,7 @@
 
 		updateNumberNotes();
 
-		noteData.getNotes().done(function(items){
+		noteData.getNotes().done( function (items) {
 			
 			items = noteDataToArray(items);
 			items = items.sortBy(sort);
@@ -97,13 +97,13 @@
 	});
 
 	// Start document ready
-	$(function(){
+	$(function () {
 		
 		// build notes on ready
 		renderNotes();
 
 		// Sort for Filter
-		$(document).on('change', 'input[type=radio][name=sort]', function(e) {
+		$(document).on('change', 'input[type=radio][name=sort]', function (e) {
 			let sortValue = $(this).val();
 			localStorage.setItem("sort", sortValue);
 
@@ -112,7 +112,7 @@
 
 
 		// Listen for Change of Status
-		$(document).on( 'click', '.status', function(e) {
+		$(document).on( 'click', '.status', function (e) {
 			let $this = $(this);
 			let item = $this.closest('.list-item');
 			let status = item.data("done");
@@ -121,14 +121,14 @@
 			item.toggleClass("is-done")
 			.attr("data-done", !status)
 			.find("button")
-			.prop("disabled", function(i, v) { return !v; });
+			.prop("disabled", function (i, v) { return !v; });
 
 			// set the opposite status
 			setStatus(item, !status);
 		});
 
 		// Listen for Edit or Delete Action
-		$(document).on( "click", ".update-item", function(e){
+		$(document).on( "click", ".update-item", function (e) {
 			let $this = $(this);
 			let item = $this.closest(".list-item");
 			let action = $this.data("action");
@@ -137,7 +137,7 @@
 		});
 
 		// Filter options set on checkbox change
-		$(document).on( "change", "#show-done", function() {		
+		$(document).on( "change", "#show-done", function () {		
 			if ($(this).is(":checked")) {		
 				localStorage.setItem("filter", $(this).val());		
 			} else {

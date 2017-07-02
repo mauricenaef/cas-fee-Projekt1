@@ -1,6 +1,6 @@
  "use strict";
 
- (function($) {
+ (function ($) {
     let form = $("#new-note");
     let noteData = window.services.restClient;
     // Set Date today in Input and hidden fields
@@ -8,49 +8,37 @@
     let day = ("0" + now.getDate()).slice(-2);
     let month = ("0" + (now.getMonth() + 1)).slice(-2);
     let today = now.getFullYear() + "-" + ( month )+"-"+( day );
+
+    let getQueryParam = function (name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        let regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"), results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
         
-    $(function(){
+    $(function () {
         let formContainer = $("#new-note");
-        let formTemplateData = Handlebars.compile( $("#editTemplate").html() );
+        let formTemplateData = Handlebars.compile( $("#editTemplate").html());
         let item;	
         let noteId = getQueryParam("id");
 
-        // Load single note on edit form
-        if (noteId) {
-            noteData.getNote(noteId).done(function ( item ){ renderForm( item ); });
-        } else {
-            renderForm();
-        }
-
-        function checkValidId(id) {
-            return noteData.getNote(id);    
-        }
-
-        function getQueryParam(name, url) {
-            if (!url) url = window.location.href;
-            name = name.replace(/[\[\]]/g, "\\$&");
-            let regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"), results = regex.exec( url );
-            if (!results) return null;
-            if (!results[2]) return '';
-
-            return decodeURIComponent(results[2].replace(/\+/g, " "));
-        }
-
-        function renderForm(item) {
-        	
-            formContainer.html(formTemplateData( item ));
-        	
-            $("#due-date").val( today ); 
-        	$("#created-date").val(moment().unix());
+        let renderForm = function (item) {
+            
+            formContainer.html(formTemplateData(item));
+            
+            $("#due-date").val(today); 
+            $("#created-date").val(moment().unix());
             
             if (noteId) {
                 $("#submitButton").html("Notiz Aktualisieren");
                 $("#form-title").html("Notiz bearbeiten");
             }
-            
 
             // New note / Edit note Form submit
-            form.on("submit", function(event){
+            form.on("submit", function (event){
 
                 let title = $("#title").val();
                 let description =  $("#description").val();
@@ -64,29 +52,33 @@
 
                 if (noteId) {
                     noteData.editNote( item._id, title, false, description, priority, item.createdDate, dueDate )
-                    .done( function( message ) {        
+                    .done(function (message) {        
                         // Forward to Home
                         window.location.replace("index.html");
-
-                    }).fail( function ( message ) {            
-                        alert( message );
+                    }).fail(function (message) {            
+                        alert(message);
                     });
 
                 } else {
 
                     noteData.createNote( title, description, dueDate, priority, createdDate )
-                    .done( function ( message ) {         
+                    .done( function (message) {         
                         // Forward to Home
                         window.location.replace("index.html");
-                         
-                    }).fail( function ( message ) {    
-                        alert( message );
+                    }).fail( function (message) {    
+                        alert(message);
                     });
                 }
 
             });
         }
-        
+
+        // Load single note on edit form
+        if (noteId) {
+            noteData.getNote(noteId).done( function (item){ renderForm(item); });
+        } else {
+            renderForm();
+        }
     });
 
 }(jQuery));

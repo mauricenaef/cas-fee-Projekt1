@@ -33,9 +33,7 @@
 
 html,
 body {
-	background-color: #eee;
 	background-color: var(--bgColor);
-	color: #111;
 	color: var(--baseColor);
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 400;
