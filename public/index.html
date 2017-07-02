@@ -76,7 +76,7 @@
                                     <h3 class="list-title">{{ title }}</h3>
                                     <span class="dates">
                                         {{#if doneDate }}
-                                        <time datetime="{{ doneDate }}" class="done-date"><svg class="icon icon-box-filled"><use xlink:href="/images/symbol-defs.svg#icon-box-filled"></use></svg> Erledigt am: {{ convertDateTimestamp doneDate }}</time>
+                                        <time datetime="{{ doneDate }}" data-time="{{ doneDate }}" class="done-date"><svg class="icon icon-box-filled"><use xlink:href="/images/symbol-defs.svg#icon-box-filled"></use></svg> Erledigt am: {{ convertDateTimestamp doneDate }}</time>
                                         {{/if}}
                                         <time datetime="{{ createdDate }}" class="created-date"><svg class="icon icon-document-edit"><use xlink:href="/images/symbol-defs.svg#icon-document-edit"></use></svg> Erstellt am: {{ convertDateTimestamp createdDate }}</time>
                                     </span>
