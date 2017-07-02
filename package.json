@@ -1,0 +1,24 @@
+{
+  "name": "notee",
+  "version": "1.0.0",
+  "description": "Projektarbeit № 1 · 2017 CAS FEE HSR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mauricenaef@github.com/mauricenaef/cas-fee-Projekt1.git"
+  },
+  "author": "Marcel Maurice Naef (mauricenaef)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mauricenaef/cas-fee-Projekt1/issues"
+  },
+  "homepage": "https://github.com/mauricenaef/cas-fee-Projekt1#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "nedb": "^1.8.0"
+  }
+}

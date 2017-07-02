@@ -1,0 +1,141 @@
+<!doctype html>
+<html class="no-js" lang="de-CH">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" href="../favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body class="site">
+
+        <header class="site-header set-layout" role="banner">     
+            <a href="index.html" class="logo">
+                <svg class="icon icon-logo"><use xlink:href="/images/symbol-defs.svg#icon-logo"></use></svg>
+            </a>       
+
+            <div class="theme-changer inline-radio">
+                <div class="item">
+                    <input type="radio" name="change-theme" id="light" value="light">
+                    <label for="light" class="icon-label"  title="Change to Light Theme">
+                        <svg class="icon icon-medium icon-sun"><use xlink:href="/images/symbol-defs.svg#icon-sun"></use></svg>
+                        <span>light</span> 
+                    </label>
+                </div>
+                <div class="item">
+                    <input type="radio" name="change-theme" id="dark" value="dark">
+                    <label for="dark" class="icon-label" title="Change to Dark Theme">
+                        <span>dark</span>
+                        <svg class="icon icon-medium icon-moon-stars"><use xlink:href="/images/symbol-defs.svg#icon-moon-stars"></use></svg>
+                    </label>
+                </div>
+            </div>
+            
+        </header>
+
+        <main class="main-content" role="main">
+            <article class="set-layout">
+                <h1>Willkommen bei notee!</h1>
+                <p class="subheader">Deinem App für die Notizerfassung</p>
+                
+                <div class="filter-list">
+                    <span class="list-count">Showing 1 / 0 Notes</span>
+                    <span class="filter-list-title">Sort list by: </span>
+
+                    <input type="radio" name="sort" id="sort-dueDate" class="sort-due-date hidden" value="dueDate">
+                    <label for="sort-dueDate"  class="filter-item">Due Date</label>
+                    
+                    <input type="radio" name="sort" id="sort-createDate" class="sort-due-date hidden" value="createdDate">
+                    <label for="sort-createDate"  class="filter-item">Created Date</label>
+                    
+                    <input type="radio" name="sort" id="sort-priority" class="sort-due-date hidden" value="priority">
+                    <label for="sort-priority"  class="filter-item">Priority</label>
+
+                    <input type="checkbox" name="show-done" id="show-done" class="show-done hidden" value="true">
+                    <label for="show-done"  class="button small show-done-label">Done</label>
+                </div>
+                <div id="notes"></div>
+                
+                <!-- Start Handle Bar Template -->
+                <script id="notesTemplate" type="text/x-handlebars-template">
+                    <div class="entries-list">
+                        {{#each notes}}
+                            <div class="list-item{{ isDone done }}" id="item-{{ _id }}" data-id="{{ _id }}" data-priority="{{priority}}" data-due-date="{{ dueDate }}" data-created-date="{{ createdDate }}" data-done="{{ done }}">
+                                <div class="status">
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                        <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                                        <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                    </svg>
+                                </div>
+                                <div class="details">
+                                    <h3 class="list-title">{{ title }}</h3>
+                                    <span class="dates">
+                                        {{#if doneDate }}
+                                        <time datetime="{{ doneDate }}" class="done-date"><svg class="icon icon-box-filled"><use xlink:href="/images/symbol-defs.svg#icon-box-filled"></use></svg> Erledigt am: {{ convertDateTimestamp doneDate }}</time>
+                                        {{/if}}
+                                        <time datetime="{{ createdDate }}" class="created-date"><svg class="icon icon-document-edit"><use xlink:href="/images/symbol-defs.svg#icon-document-edit"></use></svg> Erstellt am: {{ convertDateTimestamp createdDate }}</time>
+                                    </span>
+                                    {{ autoP description }}
+                                </div>
+                                <div class="due-date">
+                                    <div class="time">
+                                        {{#if dueDate }}
+                                        <time datetime="{{ dueDate }}"><span class="due-date-label">Due Date: </span><strong>{{ convertDateTimestamp dueDate }}</strong></time>
+                                        {{else}}
+                                        <span class="due-date-label">No Due Date</span>
+                                        {{/if}}
+                                    </div>
+                                    <div class="item-priority">
+                                        {{#if priority}}
+                                        <span class="due-date-label">Priority:</span>
+                                         <div class="inline-radio rating">
+                                         {{#lightning priority}}
+                                             <svg class="icon icon-medium icon-lightning"><use xlink:href="/images/symbol-defs.svg#icon-lightning"></use></svg>
+                                         {{/lightning}}
+                                         </div>
+                                        {{else}}
+                                        <span class="due-date-label">No Priorty</span>
+                                        {{/if}}
+                                    </div>  
+                                </div>
+                                <div class="edit">
+                                    <button class="button update-item edit-item" data-action="edit" {{{ setDisable done }}}><svg class="icon icon-clipboard-edit"><use xlink:href="/images/symbol-defs.svg#icon-clipboard-edit"></use></svg></button>
+                                    <button class="button update-item delete-item" data-action="delete" {{{ setDisable done }}}><svg class="icon icon-trash-can"><use xlink:href="/images/symbol-defs.svg#icon-trash-can"></use></svg> </button>                         
+                                </div>
+                            </div>
+                        {{else}}
+                            <div>
+                                <h2>Es sind keine Notizen Vorhanden!</h2>
+                            </div>
+                        {{/each}}
+                    </div>
+                    <a href="new-note.html" class="button">Erstelle eine neue Notiz</a>
+                </script>
+                <!-- End Handlebar Template -->
+            </article> 
+        </main>
+        
+        <footer class="site-footer">
+            <p>Projektarbeit № 1 · 2017 CAS FEE HSR · notee</p>
+            <p>by <strong>Marcel Maurice Naef</strong></p>
+        </footer>
+        
+
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
+        <script src="js/libs/shared.js"></script>
+        <script src="js/utils/handlebarsHelpers.js"></script>
+
+        <script src="js/utils/ajaxUtil.js"></script>
+        <script src="js/services/restClient.js"></script>
+        
+        <script src="js/libs/indexHelpers.js"></script>
+        <script src="js/controllers/indexController.js"></script>
+    </body>
+</html>
